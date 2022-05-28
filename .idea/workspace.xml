@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beaf6b5a-1705-4c95-8400-14f581126158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -60,84 +54,89 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.numbers" />
+      <recent name="main.strings" />
+      <recent name="main.string" />
       <recent name="main.fizzbuzz" />
       <recent name="main.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.print">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindAverageTest.testAverage">
+    <configuration name="FindAverageTest.testAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snippets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.calculator.*" />
+          <option name="PATTERN" value="test.numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.calculator" />
-      <option name="MAIN_CLASS_NAME" value="test.calculator.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.subtractionOfIntegers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="snippets" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.calculator" />
-      <option name="MAIN_CLASS_NAME" value="test.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="subtractionOfIntegers" />
+      <option name="PACKAGE_NAME" value="test.numbers" />
+      <option name="MAIN_CLASS_NAME" value="test.numbers.FindAverageTest" />
+      <option name="METHOD_NAME" value="testAverage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMaximumTest.testMaximum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snippets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.fizzbuzz.*" />
+          <option name="PATTERN" value="test.numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="test.fizzbuzz.FizzBuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.ofZeroIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="snippets" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.fizzbuzz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="test.fizzbuzz.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="ofZeroIsZero" />
+      <option name="PACKAGE_NAME" value="test.numbers" />
+      <option name="MAIN_CLASS_NAME" value="test.numbers.FindMaximumTest" />
+      <option name="METHOD_NAME" value="testMaximum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMaximumTest.testMaximumTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snippets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.fizzbuzz.*" />
+          <option name="PATTERN" value="test.numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="test.fizzbuzz.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="print" />
+      <option name="PACKAGE_NAME" value="test.numbers" />
+      <option name="MAIN_CLASS_NAME" value="test.numbers.FindMaximumTest" />
+      <option name="METHOD_NAME" value="testMaximumTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringReverserTest.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="snippets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.strings" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.StringReverserTest" />
+      <option name="METHOD_NAME" value="testReverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringReverserTest.testReverseTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="snippets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.strings" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.StringReverserTest" />
+      <option name="METHOD_NAME" value="testReverseTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest.print" />
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.ofZeroIsZero" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.subtractionOfIntegers" />
+        <item itemvalue="JUnit.FindAverageTest.testAverage" />
+        <item itemvalue="JUnit.FindMaximumTest.testMaximumTwo" />
+        <item itemvalue="JUnit.FindMaximumTest.testMaximum" />
+        <item itemvalue="JUnit.StringReverserTest.testReverseTwo" />
+        <item itemvalue="JUnit.StringReverserTest.testReverse" />
       </list>
     </recent_temporary>
   </component>
@@ -161,11 +160,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653507523984</updated>
-      <workItem from="1653507527057" duration="4638000" />
+      <workItem from="1653507527057" duration="4737000" />
+      <workItem from="1653651291048" duration="5300000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit with calculator unit testing and fizzbuzz practice.">
+      <created>1653540389725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653540389726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit with calculator unit testing and fizzbuzz practice." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit with calculator unit testing and fizzbuzz practice." />
   </component>
 </project>
