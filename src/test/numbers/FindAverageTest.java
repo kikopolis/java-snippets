@@ -16,6 +16,6 @@ public class FindAverageTest {
         list.add(1);
         list.add(2);
         list.add(3);
-        assertEquals(2.0, finder.average(list));
+        assertEquals(2, finder.average(list));
     }
 }
