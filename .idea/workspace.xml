@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,6 +31,7 @@
       <run-configuration type="JUnit" name="BowlingTest" />
       <run-configuration type="JUnit" name="test in snippets" />
       <run-configuration type="JUnit" name="FizzBuzzTest" />
+      <run-configuration type="JUnit" name="NameInverterTest" />
       <run-configuration type="JUnit" name="PrimeFactorsTest.ofOneIsNone" />
     </enabled-run-configurations>
   </component>
@@ -79,84 +80,85 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.strings" />
       <recent name="test.numbers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeFactorsTest">
-    <configuration name="PrimeFactorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NameInverterTest">
+    <configuration name="NameInverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snippets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.numbers.*" />
+          <option name="PATTERN" value="test.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.numbers" />
-      <option name="MAIN_CLASS_NAME" value="test.numbers.PrimeFactorsTest" />
+      <option name="PACKAGE_NAME" value="test.strings" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.NameInverterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactorsTest.ofAcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameInverterTest.invert_acceptance_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snippets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.numbers.*" />
+          <option name="PATTERN" value="test.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.numbers" />
-      <option name="MAIN_CLASS_NAME" value="test.numbers.PrimeFactorsTest" />
-      <option name="METHOD_NAME" value="ofAcceptanceTest" />
+      <option name="PACKAGE_NAME" value="test.strings" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.NameInverterTest" />
+      <option name="METHOD_NAME" value="invert_acceptance_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactorsTest.ofFourAreTwoAndTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameInverterTest.invert_honorifics_first_and_last_name_should_return_last_comma_first" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snippets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.numbers.*" />
+          <option name="PATTERN" value="test.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.numbers" />
-      <option name="MAIN_CLASS_NAME" value="test.numbers.PrimeFactorsTest" />
-      <option name="METHOD_NAME" value="ofFourAreTwoAndTwo" />
+      <option name="PACKAGE_NAME" value="test.strings" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.NameInverterTest" />
+      <option name="METHOD_NAME" value="invert_honorifics_first_and_last_name_should_return_last_comma_first" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactorsTest.ofSixAreTwoAndThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameInverterTest.invert_only_first_name_should_return_first_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snippets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.numbers.*" />
+          <option name="PATTERN" value="test.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.numbers" />
-      <option name="MAIN_CLASS_NAME" value="test.numbers.PrimeFactorsTest" />
-      <option name="METHOD_NAME" value="ofSixAreTwoAndThree" />
+      <option name="PACKAGE_NAME" value="test.strings" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.NameInverterTest" />
+      <option name="METHOD_NAME" value="invert_only_first_name_should_return_first_name" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactorsTest.of_eight_are_two_two_and_two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameInverterTest.invert_with_many_first_names_should_return_last_comma_all_first_names" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snippets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.numbers.*" />
+          <option name="PATTERN" value="test.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.numbers" />
-      <option name="MAIN_CLASS_NAME" value="test.numbers.PrimeFactorsTest" />
-      <option name="METHOD_NAME" value="of_eight_are_two_two_and_two" />
+      <option name="PACKAGE_NAME" value="test.strings" />
+      <option name="MAIN_CLASS_NAME" value="test.strings.NameInverterTest" />
+      <option name="METHOD_NAME" value="invert_with_many_first_names_should_return_last_comma_all_first_names" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrimeFactorsTest" />
-        <item itemvalue="JUnit.PrimeFactorsTest.ofAcceptanceTest" />
-        <item itemvalue="JUnit.PrimeFactorsTest.of_eight_are_two_two_and_two" />
-        <item itemvalue="JUnit.PrimeFactorsTest.ofSixAreTwoAndThree" />
-        <item itemvalue="JUnit.PrimeFactorsTest.ofFourAreTwoAndTwo" />
+        <item itemvalue="JUnit.NameInverterTest" />
+        <item itemvalue="JUnit.NameInverterTest.invert_only_first_name_should_return_first_name" />
+        <item itemvalue="JUnit.NameInverterTest.invert_with_many_first_names_should_return_last_comma_all_first_names" />
+        <item itemvalue="JUnit.NameInverterTest.invert_acceptance_test" />
+        <item itemvalue="JUnit.NameInverterTest.invert_honorifics_first_and_last_name_should_return_last_comma_first" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +184,7 @@
       <updated>1653507523984</updated>
       <workItem from="1653507527057" duration="4737000" />
       <workItem from="1653651291048" duration="5300000" />
-      <workItem from="1654013118818" duration="6070000" />
+      <workItem from="1654013118818" duration="16113000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with calculator unit testing and fizzbuzz practice.">
       <created>1653540389725</created>
@@ -198,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654017059757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added prime factors">
+      <created>1654019250716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654019250716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +217,13 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit with calculator unit testing and fizzbuzz practice." />
     <MESSAGE value="Added bowling game and refactored other tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added bowling game and refactored other tests" />
+    <MESSAGE value="Added prime factors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added prime factors" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/snippets$NameInverterTest.ic" NAME="NameInverterTest Coverage Results" MODIFIED="1654028204759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.strings.*</FILTER>
+    </SUITE>
   </component>
 </project>
